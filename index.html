@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Jowkari - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/unnamed-removebg-preview.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Mohammad Jowkari</h1>
+
+          <p class="title">Cybersecurity and Digital forensicr</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jowkari.1mh@gmail.com" class="contact-link">jowkari.1mh@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+7782661454" class="contact-link">+1 (778) 266-1454</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-01-1">Sep 1, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>North Vancouver CAD</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Books</button>
+
+          </li>
+
+          <li class="navbar-item">
+           
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m Mohammad Jowkari, a BCIT student with a CISA diploma and a Bachelor focus in Digital Forensics and Cybersecurity. I like building real, hands-on security and infrastructure projects that actually work in the real world.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Linux system admin</h4>
+
+                <p class="service-item-text">
+                  Linux Mint, setting up services, troubleshooting
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Defensive security</h4>
+
+                <p class="service-item-text">
+                  building an SSH honeypot, capturing attacker behavior
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  building real tools, scripting, automation
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Documentation + project delivery</h4>
+
+                <p class="service-item-text">
+                 test, and explain what I made.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Certifications</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Red_Hat_logo.svg.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Red Hat Certified System Administrator (RHCSA)</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The Red Hat Certified System Administrator (RHCSA) (EX200) is a performance-based, hands-on certification that validates essential Linux system administration skills.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Amazon_Web_Services_Logo.svg.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Academy Cloud Architecting</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   An AWS Academy Graduate in Cloud Architecting has completed an instructor-led or self-paced, hands-on course covering how to build, secure, and optimize, robust IT infrastructure on Amazon Web Services (AWS).
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/google_PNG19644.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Cybersecurity Specialization</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The Google Cybersecurity Professional Certificate is an online, entry-level program designed to prepare learners for roles like Security Analyst in under six months with no prior experience
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Cisco_logo-1000px.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>CCNA: Enterprise Networking, Security, and Automation</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    CCNA: Enterprise Networking, Security, and Automation (ENSA) is the third and final course in the Cisco Networking Academy CCNAv7 curriculum, focusing on advanced networking skills.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+  <h4 class="h4 timeline-item-title">
+    <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_very-happy-to-share-that-i-successfully-set-activity-7316579914407677954-lyOS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g"
+       target="_blank" rel="noopener"
+       class="timeline-link">
+      Hosting Nextcloud
+    </a>
+  </h4>
+
+
+  <p class="timeline-text">
+     I successfully set up a self-hosted, open-source Nextcloud server on Linux Mint using Snap. I configured it with xRDP and XFCE to enable remote access and private file storage. The server is capable of uploading a 3-hour video in under 15 seconds. I'm excited to keep building and adding more features to my server!
+  </p>
+
+</li>
+
+           <li class="timeline-item">
+
+  <h4 class="h4 timeline-item-title">
+    <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_today-i-was-considering-paying-for-onedrive-activity-7267054130135736320-wuzq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g"
+       target="_blank" rel="noopener"
+       class="timeline-link">
+      Creating my own cloud
+    </a>
+  </h4>
+
+
+
+  <p class="timeline-text">
+    I was considering paying for OneDrive to get more space for my computer, as it costs $80 per year. Instead, I bought a $50 PC with 500GB of space and I am planning to install Linux Mint to run my own cloud-based server. This way, my family can use it over our local network. Here's how I did it:
+I created an app using the Python Flask framework, which primarily works with HTML. I developed two HTML pages: index.html, which serves as the homepage, and backup.html, where users can send and view files. You can make this system more advanced by adding a login page. If you want to enhance security, consider using SQL and PHP for more secure data handling.
+  </p>
+
+</li>
+
+           <li class="timeline-item">
+
+  <h4 class="h4 timeline-item-title">
+    <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_i-have-created-a-python-application-where-activity-7198427878500229120-COpJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g"
+       target="_blank" rel="noopener"
+       class="timeline-link">
+       Cisco router GUI 
+    </a>
+  </h4>
+
+
+  <p class="timeline-text">
+    I have created a Python application where you can connect to your Cisco router and can do the 'show run' instead of typing it by hand. This project uses SSH.
+Source code 
+  </p>
+
+</li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+          </div>
+
+          
+          </ol>
+
+        </section>
+
+      
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="books">
+
+
+        <header>
+          <h2 class="h2 article-title">Books</h2>
+
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+  <a href="https://www.amazon.ca/Learn-Python-Mohammad-Jowkari-week-ebook/dp/B0CCXPC9XJ" target="_blank" rel="noopener">
+
+    <figure class="blog-banner-box">
+      <img src="./assets/images/Learn Python with Mohammad Jowkari in 1 week.png"
+           alt="Learn Python with Mohammad Jowkari in 1 week"
+           loading="lazy">
+    </figure>
+
+    <div class="blog-content">
+      <div class="blog-meta">
+        <p class="blog-category">Learn Python with Mohammad Jowkari in 1 week</p>
+        <span class="dot"></span>
+      </div>
+
+      <h3 class="h3 blog-item-title">Learn Python</h3>
+
+      <p class="blog-text">
+        In this book, you will learn the basics of Python as quickly as possible...
+      </p>
+    </div>
+
+  </a>
+</li>
+
+
+           <li class="blog-post-item">
+  <a href="https://www.amazon.ca/Learn-Linux-Mohammad-Jowkari-ebook/dp/B0CY1K5BWS" target="_blank" rel="noopener">
+
+    <figure class="blog-banner-box">
+      <img src="./assets/images/Learn Linux with Mohammad Jowkari.png"
+           alt="Learn Python with Mohammad Jowkari in 1 week"
+           loading="lazy">
+    </figure>
+
+    <div class="blog-content">
+      <div class="blog-meta">
+        <p class="blog-category">Learn Linux with Mohammad Jowkar</p>
+        <span class="dot"></span>
+      </div>
+
+      <h3 class="h3 blog-item-title">Learn Linux</h3>
+
+      <p class="blog-text">
+        You will learn the basics of Linux in this book by using the Red Hat operating system, so you can become a Linux admin in the future.
+      </p>
+    </div>
+
+  </a>
+</li>
+
+<li class="blog-post-item">
+  <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_azure-az-900-activity-7266626053375164417-J01Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g" target="_blank" rel="noopener">
+
+    <figure class="blog-banner-box">
+      <img src="./assets/images/twitter_thumb_201604_image.png"
+           alt="Learn Python with Mohammad Jowkari in 1 week"
+           loading="lazy">
+    </figure>
+
+    <div class="blog-content">
+      <div class="blog-meta">
+        <p class="blog-category">Learn azure AZ-900</p>
+        <span class="dot"></span>
+      </div>
+
+      <h3 class="h3 blog-item-title">Learn Azure</h3>
+
+      <p class="blog-text">
+        I wanted to start from the beginning with learning Azure once again so I have a better understanding. I decided to write this book to cover all the basics of how cloud and Azure work for others who are also interested in learning. This book also covers everything for the Azure AZ-900 certification for people looking to achieve the Azure AZ-900 cert.
+      </p>
+    </div>
+
+  </a>
+</li>
+
+
+          
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps?q=North+Vancouver,+BC,+Canada&output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
