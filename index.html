@@ -1,1011 +1,485 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohammad Jowkari - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c13">
+  <meta name="description" content="Mohammad Jowkari is a North Vancouver-based cybersecurity and digital forensics student, software builder and founder of JowkariTech. Explore AI projects, real products, phishing research and CityNews/CTV coverage.">
+  <meta name="author" content="Mohammad Jowkari">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mohammadjowkari.com/">
+  <title>Mohammad Jowkari — Cybersecurity, AI & Software Portfolio</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mohammadjowkari.com/">
+  <meta property="og:title" content="Mohammad Jowkari — Building useful, secure software">
+  <meta property="og:description" content="Cybersecurity, AI, digital forensics and working software. Selected projects, research and media appearances.">
+  <meta property="og:image" content="https://mohammadjowkari.com/assets/images/unnamed-removebg-preview.png">
+  <meta name="twitter:card" content="summary">
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;650;700;750;800&family=JetBrains+Mono:wght@400;500;600;700&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/portfolio-2026.css?v=20261011">
+  <script defer src="./assets/js/portfolio-2026.js?v=20261011"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mohammad Jowkari",
+    "url": "https://mohammadjowkari.com/",
+    "image": "https://mohammadjowkari.com/assets/images/unnamed-removebg-preview.png",
+    "description": "Cybersecurity and digital forensics student at BCIT, founder of JowkariTech, and builder of AI-assisted web applications.",
+    "homeLocation": {"@type": "Place", "name": "North Vancouver, British Columbia, Canada"},
+    "alumniOf": {"@type": "CollegeOrUniversity", "name": "British Columbia Institute of Technology"},
+    "knowsAbout": ["Cybersecurity", "Digital Forensics", "AI Security", "Linux", "Software Development", "Cloud Infrastructure"],
+    "sameAs": [
+      "https://github.com/mohammadj02",
+      "https://ca.linkedin.com/in/mohammad-jowkari-058873275"
+    ]
+  }
+  </script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
 
-  <!--
-    - #MAIN
-  -->
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="Mohammad Jowkari — home">
+        <span class="brand-mark" aria-hidden="true">M<b>J</b></span>
+        <span class="brand-text">
+          <strong>Mohammad Jowkari</strong>
+          <small>CYBERSECURITY · AI · SOFTWARE</small>
+        </span>
+      </a>
 
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/unnamed-removebg-preview.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Mohammad Jowkari</h1>
-
-          <p class="title">Cybersecurity and Digital forensicr</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:jowkari.1mh@gmail.com" class="contact-link">jowkari.1mh@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+7782661454" class="contact-link">+1 (778) 266-1454</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2003-01-1">Sep 1, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>North Vancouver CAD</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projects</button>
-          </li>
-
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Books</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Research</button>
-          </li>
-
-          <li class="navbar-item">
-           
-          </li>
-
-        </ul>
-
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work" data-nav-link>Work</a>
+        <a href="#press" data-nav-link>In the news</a>
+        <a href="#research" data-nav-link>Research</a>
+        <a href="#about" data-nav-link>About</a>
+        <a href="#contact" data-nav-link>Contact</a>
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I’m Mohammad Jowkari, a BCIT student with a CISA diploma and a Bachelor focus in Digital Forensics and Cybersecurity. I like building real, hands-on security and infrastructure projects that actually work in the real world.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">My Skills</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Linux system admin</h4>
-
-                <p class="service-item-text">
-                  Linux Mint, setting up services, troubleshooting
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Defensive security</h4>
-
-                <p class="service-item-text">
-                  building an SSH honeypot, capturing attacker behavior
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Programming</h4>
-
-                <p class="service-item-text">
-                  building real tools, scripting, automation
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Documentation + project delivery</h4>
-
-                <p class="service-item-text">
-                 test, and explain what I made.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Certifications</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/Red_Hat_logo.svg.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Red Hat Certified System Administrator (RHCSA)</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    The Red Hat Certified System Administrator (RHCSA) (EX200) is a performance-based, hands-on certification that validates essential Linux system administration skills.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/Amazon_Web_Services_Logo.svg.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Academy Cloud Architecting</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                   An AWS Academy Graduate in Cloud Architecting has completed an instructor-led or self-paced, hands-on course covering how to build, secure, and optimize, robust IT infrastructure on Amazon Web Services (AWS).
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/google_PNG19644.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Cybersecurity Specialization</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    The Google Cybersecurity Professional Certificate is an online, entry-level program designed to prepare learners for roles like Security Analyst in under six months with no prior experience
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/Cisco_logo-1000px.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>CCNA: Enterprise Networking, Security, and Automation</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    CCNA: Enterprise Networking, Security, and Automation (ENSA) is the third and final course in the Cisco Networking Academy CCNAv7 curriculum, focusing on advanced networking skills.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode" title="Switch to light mode">
+          <span data-theme-glyph aria-hidden="true">☀</span>
+        </button>
+        <a class="header-cta" href="mailto:jowkari.1mh@gmail.com?subject=Let's%20connect%20%E2%80%94%20portfolio">Let's connect <span class="arrow" aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="mobile-navigation" aria-expanded="false" aria-label="Open navigation">
+          <span data-menu-glyph aria-hidden="true">☰</span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-navigation" data-mobile-menu aria-hidden="true" aria-label="Mobile navigation">
+      <a href="#work">Work</a>
+      <a href="#press">In the news</a>
+      <a href="#research">Research</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- INTRO -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <div class="availability"><span class="live-dot" aria-hidden="true"></span> NORTH VANCOUVER, BC · BUILDING IN 2026</div>
+          <h1 id="hero-heading">
+            <span class="line">Make it useful.</span>
+            <span class="line outline">Make it secure.</span>
+            <span class="line gradient-text">Make it real.</span>
+          </h1>
+          <p class="hero-description">I'm <strong>Mohammad Jowkari</strong> — a developer and BCIT digital forensics &amp; cybersecurity student who builds at the intersection of <strong>AI, infrastructure, and security</strong>. I care about taking good ideas all the way to working products.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#work">Explore my work <span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="btn btn-secondary" href="#press">See media features <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-foot">
+            <span>FOUNDER, JOWKARITECH</span><span class="dash"></span>
+            <a href="https://github.com/mohammadj02" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+            <a href="https://ca.linkedin.com/in/mohammad-jowkari-058873275" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+          </div>
         </div>
 
-
-        
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="projects">
-
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            
+        <div class="hero-visual reveal delay-1" data-hero-visual aria-label="Portfolio portrait and systems engineering illustration">
+          <div class="terminal-header" aria-hidden="true">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span class="mono">mohammad@workstation: ~</span>
           </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_very-happy-to-share-that-i-successfully-set-activity-7316579914407677954-lyOS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g"
-       target="_blank" rel="noopener"
-       class="timeline-link">
-      Hosting Nextcloud
-    </a>
-  </h4>
-
-
-  <p class="timeline-text">
-     I successfully set up a self-hosted, open-source Nextcloud server on Linux Mint using Snap. I configured it with xRDP and XFCE to enable remote access and private file storage. The server is capable of uploading a 3-hour video in under 15 seconds. I'm excited to keep building and adding more features to my server!
-  </p>
-
-</li>
-
-           <li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_today-i-was-considering-paying-for-onedrive-activity-7267054130135736320-wuzq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g"
-       target="_blank" rel="noopener"
-       class="timeline-link">
-      Creating my own cloud
-    </a>
-  </h4>
-
-
-
-  <p class="timeline-text">
-    I was considering paying for OneDrive to get more space for my computer, as it costs $80 per year. Instead, I bought a $50 PC with 500GB of space and I am planning to install Linux Mint to run my own cloud-based server. This way, my family can use it over our local network. Here's how I did it:
-I created an app using the Python Flask framework, which primarily works with HTML. I developed two HTML pages: index.html, which serves as the homepage, and backup.html, where users can send and view files. You can make this system more advanced by adding a login page. If you want to enhance security, consider using SQL and PHP for more secure data handling.
-  </p>
-
-</li>
-
-           <li class="timeline-item">
-
-  <h4 class="h4 timeline-item-title">
-    <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_i-have-created-a-python-application-where-activity-7198427878500229120-COpJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g"
-       target="_blank" rel="noopener"
-       class="timeline-link">
-       Cisco router GUI 
-    </a>
-  </h4>
-
-
-  <p class="timeline-text">
-    I have created a Python application where you can connect to your Cisco router and can do the 'show run' instead of typing it by hand. This project uses SSH.
-Source code 
-  </p>
-
-</li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
+          <div class="orbit" aria-hidden="true"><div class="orbit-line"></div></div>
+          <div class="portrait-wrap">
+            <img src="./assets/images/unnamed-removebg-preview.png" width="218" height="218" alt="Mohammad Jowkari" fetchpriority="high">
           </div>
+          <div class="float-note" aria-hidden="true">
+            <span class="icon-glyph">✳</span>
+            <span><small>CURRENT FOCUS</small><strong>AI + Security</strong></span>
+          </div>
+          <div class="vertical-caption" aria-hidden="true">BUILD · TEST · SHIP · IMPROVE</div>
+          <div class="terminal-card" aria-hidden="true">
+            <div class="terminal-card-top">
+              <span class="label">LOCAL ENVIRONMENT / STATUS</span>
+              <span class="label ready">● ONLINE</span>
+            </div>
+            <div class="terminal-code">
+              <div><span class="prompt">➜</span> whoami</div>
+              <div class="result">developer · security researcher · maker</div>
+              <div><span class="prompt">➜</span> current_work</div>
+              <div class="muted-line">PromptShield / web products / research<span class="caret"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          
-          </ol>
+    <!-- CREDIBILITY -->
+    <div class="proof-bar" aria-label="Media and educational background">
+      <div class="shell proof-inner">
+        <div class="proof-group">
+          <span class="proof-label">MY WORK IN THE NEWS</span>
+          <span class="proof-name">CityNews<span style="color:var(--lime)">.</span></span>
+          <span class="proof-name">CTV <span style="color:var(--aqua)">News</span></span>
+        </div>
+        <span class="proof-education">BCIT · DIGITAL FORENSICS &amp; CYBERSECURITY</span>
+      </div>
+    </div>
 
-        </section>
+    <!-- SELECTED WORK -->
+    <section class="section work-section" id="work" data-observe-section aria-labelledby="work-heading">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <div class="eyebrow"><span class="section-index">01 / SELECTED WORK</span></div>
+            <h2 id="work-heading">Ideas are good.<br><span class="subline">Working systems are better.</span></h2>
+          </div>
+          <p>AI security research, independent products, and the infrastructure behind them. Every project here is real — and clearly labeled when it's still in development.</p>
+        </div>
 
-      
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn" type="button" aria-pressed="true" aria-controls="project-grid" data-project-filter="all">All work</button>
+          <button class="filter-btn" type="button" aria-pressed="false" aria-controls="project-grid" data-project-filter="live">Live products</button>
+          <button class="filter-btn" type="button" aria-pressed="false" aria-controls="project-grid" data-project-filter="security">Security</button>
+          <button class="filter-btn" type="button" aria-pressed="false" aria-controls="project-grid" data-project-filter="ai">AI + automation</button>
+          <button class="filter-btn" type="button" aria-pressed="false" aria-controls="project-grid" data-project-filter="infra">Infrastructure</button>
+          <span class="mono" data-visible-count aria-live="polite" style="margin-left:auto;align-self:center">06 PROJECTS</span>
+        </div>
 
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
+        <div class="project-grid" id="project-grid">
+          <!-- Work 01: in progress, not falsely presented as a deployed product -->
+          <article class="project-card project-card--feature reveal" data-categories="security ai" aria-labelledby="promptshield-heading">
+            <div class="project-copy">
+              <div class="project-topline">
+                <span class="card-kicker">01 / FEATURED RESEARCH BUILD</span>
+                <span class="status status--research">IN DEVELOPMENT</span>
               </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="books">
-
-
-        <header>
-          <h2 class="h2 article-title">Books</h2>
-
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-  <a href="https://www.amazon.ca/Learn-Python-Mohammad-Jowkari-week-ebook/dp/B0CCXPC9XJ" target="_blank" rel="noopener">
-
-    <figure class="blog-banner-box">
-      <img src="./assets/images/Learn Python with Mohammad Jowkari in 1 week.png"
-           alt="Learn Python with Mohammad Jowkari in 1 week"
-           loading="lazy">
-    </figure>
-
-    <div class="blog-content">
-      <div class="blog-meta">
-        <p class="blog-category">Learn Python with Mohammad Jowkari in 1 week</p>
-        <span class="dot"></span>
-      </div>
-
-      <h3 class="h3 blog-item-title">Learn Python</h3>
-
-      <p class="blog-text">
-        In this book, you will learn the basics of Python as quickly as possible...
-      </p>
-    </div>
-
-  </a>
-</li>
-
-
-           <li class="blog-post-item">
-  <a href="https://www.amazon.ca/Learn-Linux-Mohammad-Jowkari-ebook/dp/B0CY1K5BWS" target="_blank" rel="noopener">
-
-    <figure class="blog-banner-box">
-      <img src="./assets/images/Learn Linux with Mohammad Jowkari.png"
-           alt="Learn Python with Mohammad Jowkari in 1 week"
-           loading="lazy">
-    </figure>
-
-    <div class="blog-content">
-      <div class="blog-meta">
-        <p class="blog-category">Learn Linux with Mohammad Jowkar</p>
-        <span class="dot"></span>
-      </div>
-
-      <h3 class="h3 blog-item-title">Learn Linux</h3>
-
-      <p class="blog-text">
-        You will learn the basics of Linux in this book by using the Red Hat operating system, so you can become a Linux admin in the future.
-      </p>
-    </div>
-
-  </a>
-</li>
-
-<li class="blog-post-item">
-  <a href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_azure-az-900-activity-7266626053375164417-J01Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEM5u4QBJrBe2ygpTOy80TDajQi-nBMyy9g" target="_blank" rel="noopener">
-
-    <figure class="blog-banner-box">
-      <img src="./assets/images/twitter_thumb_201604_image.png"
-           alt="Learn Python with Mohammad Jowkari in 1 week"
-           loading="lazy">
-    </figure>
-
-    <div class="blog-content">
-      <div class="blog-meta">
-        <p class="blog-category">Learn azure AZ-900</p>
-        <span class="dot"></span>
-      </div>
-
-      <h3 class="h3 blog-item-title">Learn Azure</h3>
-
-      <p class="blog-text">
-        I wanted to start from the beginning with learning Azure once again so I have a better understanding. I decided to write this book to cover all the basics of how cloud and Azure work for others who are also interested in learning. This book also covers everything for the Azure AZ-900 certification for people looking to achieve the Azure AZ-900 cert.
-      </p>
-    </div>
-
-  </a>
-</li>
-
-
-          
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-
-      <!--
-        - #RESEARCH
-      -->
-
-      <article class="blog" data-page="research">
-
-        <header>
-          <h2 class="h2 article-title">Research</h2>
-        </header>
-
-        <section class="blog-posts">
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="./research/effectiveness-human-vs-ai-phishing.html" target="_blank" rel="noopener">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/unnamed-removebg-preview.png"
-                       alt="Effectiveness of Human-Crafted vs AI-Generated Phishing Attacks"
-                       loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Research paper</p>
-                    <span class="dot"></span>
-                    <time datetime="2026">2026</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Effectiveness of Human-Crafted vs AI-Generated Phishing Attacks</h3>
-
-                  <p class="blog-text">
-                    Public research page with the English PDF, the Persian IEEE PDF, and the Persian LaTeX source. Click to open the full paper page.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="./papers/effectiveness-human-vs-ai-phishing-fa-ieee.pdf" target="_blank" rel="noopener">
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/unnamed-removebg-preview.png"
-                       alt="Persian IEEE PDF"
-                       loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-                  <div class="blog-meta">
-                    <p class="blog-category">Persian IEEE version</p>
-                    <span class="dot"></span>
-                    <time datetime="2026">PDF</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">نسخه فارسی با قالب IEEE</h3>
-
-                  <p class="blog-text">
-                    Direct PDF link for the Persian IEEE version of the paper for sharing, download, and search indexing.
-                  </p>
-                </div>
-              </a>
-            </li>
-
-          </ul>
-        </section>
-
-      </article>
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps?q=North+Vancouver,+BC,+Canada&output=embed"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+              <h3 id="promptshield-heading">PromptShield<span style="color:var(--lime)">.</span></h3>
+              <p>An indirect prompt-injection analysis gateway. The research prototype examines untrusted webpages, emails and documents for model-directed instructions, classifies risks, and explores safer structured inputs for AI assistants.</p>
+              <div class="tags">
+                <span class="tag">AI SECURITY</span><span class="tag">PYTHON</span><span class="tag">THREAT CLASSIFICATION</span>
+              </div>
+              <a class="text-link" href="#research">More on the research <span class="arrow" aria-hidden="true">↗</span></a>
             </div>
+            <div class="project-art shield-art" aria-label="Illustration of untrusted content passing through a risk analysis gateway">
+              <div class="scanline" aria-hidden="true"></div>
+              <div class="art-title">THREAT ANALYSIS / CONCEPTUAL PIPELINE</div>
+              <div class="flow-diagram">
+                <div class="flow-node"><strong>01 / INPUT</strong>Untrusted<small>content</small></div>
+                <span class="flow-arrow" aria-hidden="true">→</span>
+                <div class="flow-node flow-node--highlight"><strong>02 / CHECK</strong>Risk review<small>classification</small></div>
+                <span class="flow-arrow" aria-hidden="true">→</span>
+                <div class="flow-node"><strong>03 / OUTPUT</strong>Structured<small>context</small></div>
+              </div>
+            </div>
+          </article>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          <!-- Work 02 -->
+          <article class="project-card project-card--feature reveal delay-1" data-categories="live ai" aria-labelledby="sites-heading">
+            <div class="project-copy">
+              <div class="project-topline">
+                <span class="card-kicker">02 / PRODUCT &amp; FOUNDER</span>
+                <span class="status">LIVE WEBSITE</span>
+              </div>
+              <h3 id="sites-heading">JowkariTech<span style="color:var(--lime)">.</span></h3>
+              <p>Building practical tools for local businesses — including customizable website experiences, AI-assisted workflows, and lead-capture interfaces. Product design meets full-stack implementation and deployment.</p>
+              <div class="tags">
+                <span class="tag">WEB APPLICATIONS</span><span class="tag">AUTOMATION</span><span class="tag">SAAS</span>
+              </div>
+              <a class="text-link" href="https://jowkaritech.com/" target="_blank" rel="noopener noreferrer">Explore JowkariTech <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-art sites-art" aria-label="Illustration of a business website builder">
+              <div class="browser-mock" aria-hidden="true">
+                <div class="browser-top"><span>● ● ●</span><span>your-business.com</span><span>↗</span></div>
+                <div class="browser-main">
+                  <div><div class="mock-heading">A better local presence.</div><div class="mock-line"></div><span class="mock-cta">GET IN TOUCH ↗</span></div>
+                  <div class="mock-visual"></div>
+                </div>
+              </div>
+              <span class="mock-badge" aria-hidden="true">DESIGN → LAUNCH ✓</span>
+            </div>
+          </article>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+          <!-- Work 03 -->
+          <article class="project-card project-card--compact reveal" data-categories="live" aria-labelledby="paytools-heading">
+            <div class="project-copy">
+              <div class="project-topline"><span class="card-kicker">03 / WEB PRODUCT</span><span class="status">LIVE</span></div>
+              <h3 id="paytools-heading">PayTools Canada</h3>
+              <p>Canada-focused salary and payroll calculators with 2026 tax estimates, provincial comparisons, pay breakdowns and interactive financial tools.</p>
+              <div class="tags"><span class="tag">ASTRO</span><span class="tag">TYPESCRIPT</span><span class="tag">DATA UX</span></div>
+              <a class="text-link" href="https://paytoolscanada.ca/" target="_blank" rel="noopener noreferrer">Visit the live product <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-art mini-art pay-art" aria-label="Illustrative income tax calculator interface">
+              <div class="pay-mini" aria-hidden="true"><b>YOUR TAKE-HOME PAY</b><div class="bar"></div><span>Salary · CPP · EI · tax</span></div>
+              <div class="pay-small" aria-hidden="true">13 regions<br>2026 rates<br>Free tools</div>
+            </div>
+          </article>
 
-          </form>
+          <!-- Work 04 -->
+          <article class="project-card project-card--compact reveal delay-1" data-categories="live ai" aria-labelledby="matcher-heading">
+            <div class="project-copy">
+              <div class="project-topline"><span class="card-kicker">04 / AI APPLICATION</span><span class="status">BUILT &amp; DEPLOYED</span></div>
+              <h3 id="matcher-heading">AI Resume Matcher</h3>
+              <p>Built a resume-to-job matching experience with skills-gap analysis, ATS-oriented feedback, and document generation, deployed on a self-hosted server.</p>
+              <div class="tags"><span class="tag">NODE.JS</span><span class="tag">EXPRESS</span><span class="tag">AI WORKFLOWS</span></div>
+              <a class="text-link" href="https://devpost.com/software/resume-matcher-mohammad-jowkari" target="_blank" rel="noopener noreferrer">View project write-up <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-art mini-art resume-art" aria-label="Illustrative resume skills-match interface">
+              <div class="resume-sheet" aria-hidden="true"><strong>RESUME ANALYSIS</strong><i></i><i></i><i></i><em>✓ MATCH REVIEW</em></div>
+              <div class="resume-ai" aria-hidden="true">RESUME<br>+ JOB<br>↓<br>INSIGHTS</div>
+            </div>
+          </article>
 
-        </section>
+          <!-- Work 05 -->
+          <article class="project-card project-card--compact reveal" data-categories="live infra" aria-labelledby="pdf-heading">
+            <div class="project-copy">
+              <div class="project-topline"><span class="card-kicker">05 / SELF-HOSTED UTILITY</span><span class="status">DEPLOYED</span></div>
+              <h3 id="pdf-heading">PDF &amp; Document Toolkit</h3>
+              <p>A fast, ad-free set of document utilities built to avoid uploading sensitive files to random third-party sites. Hosted on my own Linux infrastructure.</p>
+              <div class="tags"><span class="tag">LINUX</span><span class="tag">DOCUMENT TOOLS</span><span class="tag">DEPLOYMENT</span></div>
+              <a class="text-link" href="https://mohammadjowkari.lol/app2" target="_blank" rel="noopener noreferrer">Open the web app <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-art mini-art pdf-art" aria-label="Illustration of a document conversion tool">
+              <div class="paper-icon" aria-hidden="true">DOC</div><span class="pdf-arrow" aria-hidden="true">→</span><div class="paper-icon paper-icon--second" aria-hidden="true">PDF</div>
+            </div>
+          </article>
 
-      </article>
+          <!-- Work 06 -->
+          <article class="project-card project-card--compact reveal delay-1" data-categories="security infra" aria-labelledby="honeypot-heading">
+            <div class="project-copy">
+              <div class="project-topline"><span class="card-kicker">06 / DEFENSIVE SECURITY</span><span class="status">OPEN SOURCE</span></div>
+              <h3 id="honeypot-heading">SSH Honeypot Lab</h3>
+              <p>Deployed a defensive SSH honeypot to observe and study unauthorized login attempts and attacker behavior in an isolated research setting.</p>
+              <div class="tags"><span class="tag">LINUX</span><span class="tag">SSH</span><span class="tag">BLUE TEAM</span></div>
+              <a class="text-link" href="https://github.com/mohammadj02/Honey_pod_ssh" target="_blank" rel="noopener noreferrer">Explore the GitHub repo <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-art honeypot-art" aria-label="Illustrative honeypot activity console">
+              <div class="console-head"><span>honeypot / isolated lab</span></div>
+              <div class="logline"><span class="time">[monitor]</span><span class="ok">listener active</span></div>
+              <div class="logline"><span class="time">[events]</span><span class="warn">login attempts observed</span></div>
+              <div class="logline"><span class="time">[logs]</span><span>capture → analyze → learn</span></div>
+              <div class="logline"><span class="time">[mode]</span><span class="ok">defensive research</span></div>
+            </div>
+          </article>
+        </div>
 
-    </div>
+        <div class="archive-row reveal" aria-label="More projects">
+          <a class="archive-item" href="https://github.com/mohammadj02/cisco-gui" target="_blank" rel="noopener noreferrer">
+            <span class="archive-icon" aria-hidden="true">↔</span>
+            <span><strong>Cisco Router GUI</strong><p>A Python-based interface for running Cisco router commands over SSH.</p></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="archive-item" href="https://ca.linkedin.com/in/mohammad-jowkari-058873275" target="_blank" rel="noopener noreferrer">
+            <span class="archive-icon" aria-hidden="true">◈</span>
+            <span><strong>Nextcloud &amp; Home Lab</strong><p>Private cloud storage, Linux administration and practical self-hosting experiments.</p></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <!-- REAL PRESS -->
+    <section class="section press-section" id="press" data-observe-section aria-labelledby="press-heading">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <div class="eyebrow"><span class="section-index">02 / IN THE NEWS</span></div>
+            <h2 id="press-heading">Security isn't abstract.<br><span class="subline">It affects real people.</span></h2>
+          </div>
+          <p>Two media features, one common theme: understanding how social engineering works and helping people recognize it.</p>
+        </div>
+
+        <div class="press-grid">
+          <article class="press-card reveal" aria-labelledby="citynews-title">
+            <div class="press-head">
+              <div class="press-publisher">CityNews<span>.</span></div>
+              <time datetime="2025-11-18">NOV 18, 2025</time>
+            </div>
+            <h3 id="citynews-title">Spotting a scam before it cost a local business.</h3>
+            <p>I spoke with CityNews Vancouver about a scam targeting food-delivery accounts after recognizing suspicious two-factor authentication requests at my family's North Vancouver restaurant.</p>
+            <a class="text-link" href="https://vancouver.citynews.ca/2025/11/18/restaurant-warns-scam-targeting-businesses-food-delivery-apps/" target="_blank" rel="noopener noreferrer">Read the CityNews story <span class="arrow" aria-hidden="true">↗</span></a>
+          </article>
+          <article class="press-card press-card--ctv reveal delay-1" aria-labelledby="ctv-title">
+            <div class="press-head">
+              <div class="press-publisher"><span>CTV</span> News</div>
+              <span class="mono">RESEARCH COVERAGE</span>
+            </div>
+            <h3 id="ctv-title">Our phishing research reached CTV News.</h3>
+            <p>Collaborative research comparing human-crafted and AI-generated phishing emails was featured by CTV News, bringing attention to how persuasion and emerging AI tools shape online threats.</p>
+            <a class="text-link" href="https://www.youtube.com/watch?v=7ow6-rvQ5AY" target="_blank" rel="noopener noreferrer">Watch the CTV segment <span class="arrow" aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="press-disclaimer">CityNews interview: November 2025. CTV feature: collaborative BCIT phishing research with Kawal Kalirai. Media coverage is shown for context, not as an endorsement.</p>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research" data-observe-section aria-labelledby="research-heading">
+      <div class="shell research-grid">
+        <div class="statement reveal">
+          <div class="eyebrow"><span class="section-index">03 / RESEARCH &amp; THINKING</span></div>
+          <h2 id="research-heading">Curiosity,<br>with <span class="subline">evidence.</span></h2>
+          <p><strong style="color:var(--text)">Effectiveness of Human-Crafted vs AI-Generated Phishing Attacks</strong> is a collaborative research project exploring which phishing messages people find more convincing.</p>
+          <p>The study examined responses from <strong style="color:var(--text)">50 participants</strong> to <strong style="color:var(--text)">12 phishing emails</strong>. Its findings challenge the assumption that AI-generated phishing is automatically more persuasive.</p>
+          <div class="research-cta">
+            <a class="btn btn-primary" href="./research/effectiveness-human-vs-ai-phishing.html">Read the research <span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="btn btn-secondary" href="./papers/effectiveness-human-vs-ai-phishing-en.pdf" target="_blank" rel="noopener noreferrer">English PDF <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="research-cta" style="margin-top:13px">
+            <a class="text-link" href="./papers/effectiveness-human-vs-ai-phishing-fa-ieee.pdf" target="_blank" rel="noopener noreferrer">Persian IEEE version / نسخه فارسی <span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="research-visual reveal delay-1" aria-label="Summary of the phishing research findings">
+          <div class="research-head"><strong>STUDY SNAPSHOT</strong><small>FIELD RESEARCH / 2025–26</small></div>
+          <div class="research-metrics">
+            <div class="research-metric"><strong>50</strong><span>PARTICIPANTS</span></div>
+            <div class="research-metric"><strong>12</strong><span>PHISHING EMAILS</span></div>
+            <div class="research-metric"><strong>2</strong><span>MESSAGE GROUPS</span></div>
+          </div>
+          <div class="study-chart">
+            <div class="mono" style="margin-bottom:17px">REPORTED MEAN PERSUASIVENESS SCORE</div>
+            <div class="chart-row"><span>Human-crafted</span><span class="chart-bar"><i style="width:95%"></i></span><strong>2.47</strong></div>
+            <div class="chart-row"><span>AI-generated</span><span class="chart-bar"><i style="width:63%"></i></span><strong>1.63</strong></div>
+            <p class="chart-note">Relative visual comparison of study means. Scores reflect this study's sample, not a universal detection or attack-success rate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT + STACK -->
+    <section class="section about-section" id="about" data-observe-section aria-labelledby="about-heading">
+      <div class="shell">
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <div class="eyebrow"><span class="section-index">04 / THE PERSON BEHIND THE CODE</span></div>
+            <h2 id="about-heading">Not just theory.<br><span class="subline">The whole build.</span></h2>
+            <p>I'm a North Vancouver-based developer with a <strong>BCIT Computer Information Systems Administration diploma</strong>, currently studying <strong>Digital Forensics &amp; Cybersecurity</strong> in BCIT's Bachelor of Technology program.</p>
+            <p>I enjoy the full journey: understanding a problem, designing the experience, building the system, securing the deployment, and making it useful to somebody beyond my own laptop.</p>
+            <p>That has taken me from networking labs and Linux servers to AI-assisted web tools, small-business products, and experimental security research.</p>
+            <a class="text-link" href="https://ca.linkedin.com/in/mohammad-jowkari-058873275" target="_blank" rel="noopener noreferrer">More background on LinkedIn <span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+          <div class="about-aside reveal delay-1">
+            <div class="about-point"><span class="number">01 /</span><div><h3>Build for real use</h3><p>Fast, clear websites and applications that solve an actual problem — not just a polished prototype.</p></div></div>
+            <div class="about-point"><span class="number">02 /</span><div><h3>Think like a defender</h3><p>Threat modeling, careful handling of untrusted inputs, practical testing and attention to system boundaries.</p></div></div>
+            <div class="about-point"><span class="number">03 /</span><div><h3>Own the infrastructure</h3><p>Linux administration, hosting, reverse proxies, Cloudflare, containerized services and troubleshooting deployments.</p></div></div>
+            <div class="about-point"><span class="number">04 /</span><div><h3>Explain the why</h3><p>Research, technical writing and documentation that make complicated engineering decisions understandable.</p></div></div>
+          </div>
+        </div>
+
+        <div class="stack reveal">
+          <div class="stack-header"><h3>Tools &amp; technical focus</h3><span>WHAT I BUILD WITH</span></div>
+          <div class="skill-grid">
+            <div class="skill-group"><strong>Security &amp; research</strong><span>Digital forensics</span><span>Prompt injection</span><span>Threat analysis</span><span>Defensive labs</span></div>
+            <div class="skill-group"><strong>Development</strong><span>Python · JavaScript</span><span>Node.js · Express</span><span>TypeScript · Astro</span><span>HTML · CSS · APIs</span></div>
+            <div class="skill-group"><strong>Infrastructure</strong><span>Linux · Docker</span><span>Caddy · Cloudflare</span><span>Self-hosting</span><span>Networks · SSH</span></div>
+            <div class="skill-group"><strong>AI systems</strong><span>LLM integration</span><span>Local models / Ollama</span><span>Automation workflows</span><span>Evaluation datasets</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section journey-section" aria-labelledby="journey-heading">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <div class="eyebrow"><span class="section-index">05 / EXPERIENCE &amp; EDUCATION</span></div>
+            <h2 id="journey-heading">Always learning.<br><span class="subline">Always shipping.</span></h2>
+          </div>
+          <p>A foundation in systems administration, a focus on security, and an increasingly hands-on approach to building products.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal"><span class="timeline-year">2022 — 2024</span><h3>BCIT · CISA Diploma</h3><p>Graduated from Computer Information Systems Administration with hands-on experience in networking, Linux, systems and infrastructure.</p></div>
+          <div class="timeline-item reveal delay-1"><span class="timeline-year">2025 — 2026</span><h3>BCIT · Forensic Investigation</h3><p>Studying Digital Forensics &amp; Cybersecurity in the BTech program, combining practical labs, applied research and defensive engineering.</p></div>
+          <div class="timeline-item reveal delay-2"><span class="timeline-year">NOW / BUILDING</span><h3>JowkariTech &amp; independent work</h3><p>Creating AI-enabled tools, deploying public-facing web products and researching ways to reduce indirect prompt-injection risk.</p></div>
+        </div>
+        <div class="credential-row reveal" aria-label="Certifications and courses">
+          <span class="credential">RED HAT CERTIFIED SYSTEM ADMINISTRATOR (RHCSA)</span>
+          <span class="credential">GOOGLE CYBERSECURITY CERTIFICATE</span>
+          <span class="credential">AWS ACADEMY CLOUD ARCHITECTING</span>
+          <span class="credential">CISCO NETWORKING ACADEMY · CCNA CURRICULUM</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WRITING -->
+    <section class="section" id="writing" aria-labelledby="writing-heading">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <div class="eyebrow"><span class="section-index">06 / WRITING &amp; LEARNING</span></div>
+            <h2 id="writing-heading">Learn it.<br><span class="subline">Then teach it.</span></h2>
+          </div>
+          <p>I've also put together beginner-friendly technical books and learning resources — because explaining something is one of the best ways to understand it.</p>
+        </div>
+        <div class="writing-grid">
+          <a class="writing-card reveal" href="https://www.amazon.ca/Learn-Python-Mohammad-Jowkari-week-ebook/dp/B0CCXPC9XJ" target="_blank" rel="noopener noreferrer">
+            <div class="book-art"><img src="./assets/images/Learn Python with Mohammad Jowkari in 1 week.png" loading="lazy" alt="Cover of Learn Python with Mohammad Jowkari in 1 Week"></div>
+            <div class="mono">BOOK / PROGRAMMING</div><h3>Learn Python in 1 Week</h3>
+            <p>A beginner's practical introduction to Python programming.</p>
+            <span class="text-link">View on Amazon <span class="arrow" aria-hidden="true">↗</span></span>
+          </a>
+          <a class="writing-card reveal delay-1" href="https://www.amazon.ca/Learn-Linux-Mohammad-Jowkari-ebook/dp/B0CY1K5BWS" target="_blank" rel="noopener noreferrer">
+            <div class="book-art"><img src="./assets/images/Learn Linux with Mohammad Jowkari.png" loading="lazy" alt="Cover of Learn Linux with Mohammad Jowkari"></div>
+            <div class="mono">BOOK / SYSTEMS</div><h3>Learn Linux</h3>
+            <p>An introductory guide to Linux and Red Hat system administration.</p>
+            <span class="text-link">View on Amazon <span class="arrow" aria-hidden="true">↗</span></span>
+          </a>
+          <a class="writing-card reveal delay-2" href="https://www.linkedin.com/posts/mohammad-jowkari-058873275_azure-az-900-activity-7266626053375164417-J01Z" target="_blank" rel="noopener noreferrer">
+            <div class="book-art"><img src="./assets/images/twitter_thumb_201604_image.png" loading="lazy" alt="Microsoft Azure learning resource"></div>
+            <div class="mono">GUIDE / CLOUD</div><h3>Learn Azure AZ-900</h3>
+            <p>Notes and guidance on the fundamentals of Microsoft Azure.</p>
+            <span class="text-link">Read about the guide <span class="arrow" aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" data-observe-section aria-labelledby="contact-heading">
+      <div class="shell">
+        <div class="contact-panel reveal">
+          <div class="eyebrow"><span class="section-index">07 / LET'S TALK</span></div>
+          <h2 id="contact-heading">Have something<br>worth <span>building?</span></h2>
+          <p>Whether it's a software idea, an AI integration, a security discussion, or a role where I can make an impact — I'd love to hear about it.</p>
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:jowkari.1mh@gmail.com?subject=Let's%20build%20something">Start a conversation <span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="btn btn-secondary" href="https://ca.linkedin.com/in/mohammad-jowkari-058873275" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="contact-email" href="mailto:jowkari.1mh@gmail.com">jowkari.1mh@gmail.com</a>
+          </div>
+        </div>
+        <footer class="site-footer">
+          <p>© <span data-year>2026</span> MOHAMMAD JOWKARI · BUILT WITH PURPOSE IN NORTH VANCOUVER.</p>
+          <div class="footer-links">
+            <a href="#home">Back to top ↑</a>
+            <a href="https://github.com/mohammadj02" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://jowkaritech.com/" target="_blank" rel="noopener noreferrer">JowkariTech ↗</a>
+          </div>
+        </footer>
+      </div>
+    </section>
   </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
